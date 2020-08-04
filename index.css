@@ -1,0 +1,90 @@
+#huluLogo {
+    font-size: 100px;
+    color: #0EE694;;
+    margin: 0;
+    padding: 0;
+    font-family: 'Graphik',Helvetica,Arial,sans-serif;
+}
+
+.greenText {
+    color: #2DBD9D;
+    margin: 0;
+    padding: 0;
+    padding-top: 4em;
+    font-family: 'Graphik',Helvetica,Arial,sans-serif;
+}
+.huluText {
+    color: white;
+    font-family: 'Graphik',Helvetica,Arial,sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+.mainCenter {
+    display: inline-block;
+}
+
+#wrapper {
+    text-align: center;
+    background-image: url("./assets/huluMainBackground.jpg");
+    background-size: cover;
+    width: 100vw;
+    height: 80vh;
+}
+
+div{
+    display:inline-block;
+    padding:0px;
+    /* margin-left:-4px; */
+  }
+
+nav ul li {
+    /* float: right; */
+    margin-right: 50px;
+    list-style-type: none;
+    text-align: center;
+    text-decoration: none;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#gradientWrapper {
+    background:linear-gradient(#091924, #0E3A46, #0F4557) ;
+    margin: 0;
+    padding: 0;;
+    width: 100vw;
+    height: 30vh;
+}
+
+#dpLogo {
+    width: 30vw;
+    padding: 2em;
+}
+
+.getHulu {
+    color: white;
+    font-weight: 30;
+}
+
+.moreDetails {
+    color: white;
+
+}
+
+ body {
+    /* overflow-x: hidden; */
+    margin: 0px;
+}
+/*
+#mainWrapper {
+    max-width: 100%;
+    overflow-x: hidden;
+} */
