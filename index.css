@@ -10,7 +10,7 @@
     color: #2DBD9D;
     margin: 0;
     padding: 0;
-    padding-top: 4em;
+    /* padding-top: 4em; */
     font-family: 'Graphik',Helvetica,Arial,sans-serif;
 }
 .huluText {
@@ -20,11 +20,16 @@
     padding: 0;
     font-size: 20px;
 }
-.mainCenter {
+
+/* .mainCenter {
     display: inline-block;
+} */
+
+body {
+    margin: 0px;
 }
 
-#wrapper {
+#divWrapper {
     text-align: center;
     background-image: url("./assets/huluMainBackground.jpg");
     background-size: cover;
@@ -39,7 +44,6 @@ div{
   }
 
 nav ul li {
-    /* float: right; */
     margin-right: 50px;
     list-style-type: none;
     text-align: center;
@@ -56,17 +60,31 @@ nav {
     justify-content: flex-end;
 }
 
-#gradientWrapper {
-    background:linear-gradient(#091924, #0E3A46, #0F4557) ;
+#divgradientWrapper {
+    background:linear-gradient(to right,#091923, #0E303A, #0F4150) ;
     margin: 0;
-    padding: 0;;
-    width: 100vw;
-    height: 30vh;
+    padding: 0;
+    /* width: 100vw; */
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+#divlogoContainer {
+    margin: auto;
+    flex-grow: 2;
 }
 
-#dpLogo {
-    width: 30vw;
-    padding: 2em;
+#imgDPLogo {
+    width: 25vw;
+    /* flex-shrink: 10; */
+    /* padding: 2em; */
+}
+
+#divBundle {
+    flex-grow: 3;
+    margin: auto;
 }
 
 .getHulu {
@@ -76,15 +94,41 @@ nav {
 
 .moreDetails {
     color: white;
-
 }
 
- body {
-    /* overflow-x: hidden; */
-    margin: 0px;
+#divGetBundle {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    flex-grow: 1;
+    /* flex-wrap: wrap; */
+    width: 100px;
+    /* padding: 4em; */
+    /* justify-content: flex-start; */
+    align-content: center;
+    /* align-items: stretch; */
+   /* padding: 4em; */
 }
-/*
-#mainWrapper {
-    max-width: 100%;
-    overflow-x: hidden;
-} */
+
+#btnBundle {
+    background: transparent;
+    /* margin: auto; */
+    border: 2px solid white;
+    width: 120px;
+    height: 40px;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    flex-basis: 50px;
+}
+
+.linkTerms {
+    color: white;
+    font-size: 10px;
+    margin: auto;
+    flex-grow: 2;
+}
+
+#imgBigImage {
+    width: 100vw;
+}
